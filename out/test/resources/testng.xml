@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1" verbose="1" >
+    <test name="simpleTest" >
+        <classes>
+            <class name="ru.wildberries.PriceTest" />
+            <class name="ru.wildberries.DiscountTest" />
+        </classes>
+    </test>
+
+</suite>
