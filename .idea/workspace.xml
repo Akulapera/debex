@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2bf6156-e5a3-4e65-af48-403b98f692c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/wildberries/ParserPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FirsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/wildberries/PriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/wildberries/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,17 +42,19 @@
     <session id="437472909">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="11" />
           <entry key="log" value="1" />
           <entry key="vmoptions" value="1" />
         </counts>
@@ -61,22 +62,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="9" />
           <entry key="gitignore" value="11" />
           <entry key="gradle" value="24" />
-          <entry key="java" value="1163" />
+          <entry key="java" value="1906" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="24" />
-          <entry key="JAVA" value="1163" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="1906" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -84,10 +86,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FirsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/ParserPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="-232">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,24 +98,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="552" column="27" selection-start-line="552" selection-start-column="27" selection-end-line="552" selection-end-column="27" />
+            <state relative-caret-position="110">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/PriceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -433,10 +433,14 @@
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/DriverFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/FirsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PriceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/wildberries/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/wildberries/ParserPrice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/wildberries/PriceTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="36" />
     <option name="y" value="9" />
     <option name="width" value="1752" />
@@ -447,7 +451,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,16 +476,25 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="debex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="debex" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wildberries" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604515899515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604578516882" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -501,12 +513,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirsTest.openChromeTest">
-    <configuration name="FirsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PriceTest.openChromeTest">
+    <configuration name="PriceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="debex_test" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirsTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.wildberries.PriceTest" />
       <option name="GROUP_NAME" value="" />
       <option name="VM_PARAMETERS" value="-Dtestng.dtd.http=true" />
       <option name="PARAMETERS" value="" />
@@ -521,11 +533,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirsTest.openChromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceTest.openChromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="debex_test" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirsTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.wildberries.PriceTest" />
       <option name="METHOD_NAME" value="openChromeTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -543,13 +555,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.FirsTest.openChromeTest" />
-      <item itemvalue="TestNG.FirsTest" />
+      <item itemvalue="TestNG.PriceTest.openChromeTest" />
+      <item itemvalue="TestNG.PriceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirsTest.openChromeTest" />
-        <item itemvalue="TestNG.FirsTest" />
+        <item itemvalue="TestNG.PriceTest.openChromeTest" />
+        <item itemvalue="TestNG.PriceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -567,43 +579,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 19h 50m 48s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 13h 48m 40s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 19h 54m 05s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 13h 54m 28s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 19h 55m 39s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 01m 59s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 07m 55s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 04m 05s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 08m 43s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 07m 17s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 11m 09s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 08m 58s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 13m 58s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 15m 35s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 15m 44s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 17m 54s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 45m 02s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 26m 56s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirsTest_openChromeTest - 2020.11.04 at 20h 48m 16s.xml">
-      <configuration name="FirsTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="PriceTest_openChromeTest - 2020.11.05 at 14h 29m 44s.xml">
+      <configuration name="PriceTest.openChromeTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11174089" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.17165992" />
+      <window_info id="Structure" order="1" sideWeight="0.50286806" side_tool="true" visible="true" weight="0.17165992" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -611,7 +623,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3445826" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.071047954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,6 +643,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16923077" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34991118" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.27531084" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -667,28 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverFactory.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/ui/ISelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="857">
@@ -705,15 +726,40 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="311">
           <caret line="552" column="27" selection-start-line="552" selection-start-column="27" selection-end-line="552" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/TextParser.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="178">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/PriceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/wildberries/ParserPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
