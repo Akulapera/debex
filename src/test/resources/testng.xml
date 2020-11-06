@@ -3,8 +3,8 @@
 <suite name="suite1" verbose="1" >
     <test name="simpleTest" >
         <classes>
-            <class name="ru.wildberries.PriceTest" />
-            <class name="ru.wildberries.DiscountTest" />
+            <class name="ru.wildberries.tests.PriceTest" />
+            <class name="ru.wildberries.tests.DiscountTest" />
         </classes>
     </test>
 

@@ -1,4 +1,4 @@
-package ru.wildberries;
+package ru.wildberries.manager;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
@@ -56,7 +56,6 @@ public class Parser
             //System.out.println(element.getText());
             // -30%
             List<String> res = Splitter.on("%").trimResults().splitToList(element.getText());
-            System.out.println(res);
             Integer price_int = Integer.parseInt(res.get(0));
             this.discounts.add(price_int);
         }
